@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encriptador</title>
+    <link href='https://fonts.googleapis.com/css?family=Changa' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+                <img class="icono" src="./img/Vector.png" alt="alura encriptador">
+        </nav>
+            <div class="title"><H1>EncriptaTor</H1></div>
+    </header>
+
+    <main>
+
+        <div class="robots">
+            <section>
+                <textarea class="txtIngresado" name="textarea" rows="6" cols="40" placeholder="Ingrese el texto que desea encriptar"></textarea>
+            </section>
+
+            <section class="robotFlex">
+                <input class="copiar" type="button" value="Copiar" onclick="copiar()">
+                <textarea class="txtEncriptado" cols="18" rows="8"></textarea>
+            </section>
+
+        </div>
+        
+
+        <section class="sect1">
+
+            <div class="botones">    
+                <input class="encriptar" type="button" value="Encriptar" onclick="botonEncriptar()">
+                <input class="desencriptar" type="button" value="Desencriptar" onclick="botonDesencriptar()">
+            </div>
+        
+        </section>
+                
+        <section class="informacion">
+            <img class="info" src="./img/informacion.png" alt="">
+            <p class="textoInfo">Ingrese su texto solo en minúsculas y sin acentos</p>
+        </section> 
+    
+    </main>
+
+    <footer>
+        <p>&copy</p>
+        <p class="autor">Autor: Fons Augusto</p>
+    </footer>
+
+
+    <script src="./js/codigo.js"></script>
+</body>
+</html>
